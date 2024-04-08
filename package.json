@@ -1,7 +1,7 @@
 {
   "name": "mint-forest-bot",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mint Forest Bot is a tool for claiming and injecting energy into MintChain's forest ecosystem.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",

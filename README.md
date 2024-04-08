@@ -32,8 +32,8 @@ npm start
 
 ```json
 [
-  "your_token_1",
-  "your_token_2",
+  "Bearer xxx",
+  "Bearer xxx",
   ...
 ]
 ```
