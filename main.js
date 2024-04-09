@@ -14,6 +14,7 @@ const main = async () => {
     console.log(colors.cyan('========================================'));
     console.log(colors.cyan('=    MintChain Claimer and Injector    ='));
     console.log(colors.cyan('=     Created by HappyCuanAirdrop      ='));
+    console.log(colors.cyan('=    https://t.me/HappyCuanAirdrop     ='));
     console.log(colors.cyan('========================================'));
     console.log();
 
