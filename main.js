@@ -47,7 +47,14 @@ const main = async () => {
         if (energy.freeze == true) {
           infoLog('Skipping claiming energy because it is frozen');
         } else {
-          await claimEnergy(token, energy.amount);
+          await claimEnergy(
+            token,
+            energy.uid,
+            energy.amount,
+            energy.includes,
+            energy.type,
+            energy.id
+          );
           energyClaimed = energy.amount;
           successLog(
             `* Claimed ${energy.amount} energy for wallet ${address} *`

@@ -33,17 +33,17 @@ const fetchUserInfo = async (token) => {
   }
 };
 
-const claimEnergy = async (token, amount) => {
+const claimEnergy = async (token, uid, amount, includes, type, id) => {
   try {
     const response = await axios.post(
       'https://www.mintchain.io/api/tree/claim',
       {
-        uid: [],
+        uid: uid,
         amount: amount,
-        includes: [],
-        type: 'daily',
+        includes: includes,
+        type: type,
         freeze: false,
-        id: '500_',
+        id: id,
       },
       {
         headers: {
