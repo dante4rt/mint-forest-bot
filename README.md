@@ -17,14 +17,6 @@ cd mint-forest-bot
 npm install
 ```
 
-## Usage
-
-To run the bot, execute the following command:
-
-```bash
-npm start
-```
-
 ## Configuration
 
 1. Create a `accounts.json` file in the root directory of the project.
@@ -54,3 +46,11 @@ To access the Authorization token required for the `accounts.json` file, follow 
 8. In the request headers section, you should see an "Authorization" header with a value starting with "Bearer". Copy this value and paste it into the `accounts.json` file.
 
 Ensure that you keep your API tokens secure and do not share them with anyone else.
+
+## Usage
+
+To run the bot, execute the following command:
+
+```bash
+npm start
+```
